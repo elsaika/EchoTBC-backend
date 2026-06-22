@@ -1,10 +1,5 @@
-venv/
 __pycache__/
-app.cpython-312.pyc
-models/
-requirements.txt
-Dockerfile
-app.py
-config.json
-feature_order.json
-meta.json
+*.pyc
+venv/
+.env
+.DS_Store
