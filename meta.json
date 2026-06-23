@@ -1,0 +1,53 @@
+{
+  "final_threshold": 0.4,
+  "clinical_cols": [
+    "age",
+    "BMI",
+    "reported_cough_dur",
+    "sex",
+    "weight_loss",
+    "smoke_lweek",
+    "fever",
+    "night_sweats"
+  ],
+  "numerical_cols": [
+    "age",
+    "BMI",
+    "reported_cough_dur"
+  ],
+  "categorical_cols": [
+    "sex",
+    "weight_loss",
+    "smoke_lweek",
+    "fever",
+    "night_sweats"
+  ],
+  "category_mappings": {
+    "sex": {
+      "Female": 0,
+      "Male": 1
+    },
+    "weight_loss": {
+      "No": 0,
+      "Yes": 1
+    },
+    "smoke_lweek": {
+      "No": 0,
+      "Yes": 1
+    },
+    "fever": {
+      "No": 0,
+      "Yes": 1
+    },
+    "night_sweats": {
+      "No": 0,
+      "Yes": 1
+    }
+  },
+  "median_values": {
+    "age": 38.0,
+    "BMI": 20.977002213240215,
+    "reported_cough_dur": 30.0
+  },
+  "disclaimer": "Model dilatih pada dataset CODA TB (internasional) dan BELUM divalidasi pada populasi Indonesia. Hasil adalah skrining awal, bukan diagnosis."
+}
